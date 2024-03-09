@@ -5,6 +5,11 @@ body, html {
     overflow-x: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+    /* CSS styles for small screens */
+    /* For example, adjust font sizes, margins, paddings, etc. */
+}
+
 .poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;

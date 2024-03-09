@@ -4,6 +4,12 @@ body, html {
     height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    /* CSS styles for small screens */
+    /* For example, adjust font sizes, margins, paddings, etc. */
+}
+
+
 .split-background {
     background: linear-gradient(to right, white 50%, rgb(0, 0, 0) 50%);
     width: 100%;
@@ -24,7 +30,7 @@ body, html {
 .name1{
     font-family: Geneva;
     padding-left: 630px;
-    padding-top:20px;
+    padding-top: 20px;;
     font-weight: 10px;
     display: inline-block;
     position: absolute;
@@ -43,7 +49,7 @@ body, html {
     position: absolute;
     top:auto;
     right: 0;
-    height: 820px;
+    height: 800px;
     width: 500px;
     object-fit: cover;
     animation-name: mymove;
