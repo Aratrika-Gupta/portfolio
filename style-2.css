@@ -1,0 +1,280 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.image{
+    height: 400px;
+    width:1440px;
+    opacity: 0.5;
+    padding:0;
+    margin:0;
+    border: none;
+    object-fit: cover;
+    object-position: top;
+}
+
+.name{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    font-size: 45px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.do{
+    position: absolute;
+    top: 340px;
+    right: 50px;
+    font-size: 20px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+[data-aos="new1"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+  
+    &.aos-animate {
+      opacity: 0.1;
+    }
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6{
+    width: 1440px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;  
+    opacity: 0;
+}
+
+.image1 {
+    top:900px;
+}
+
+.image2{
+    top: 600px;
+}
+
+.image3{
+    top: 1500px;
+}
+
+.image4{
+    top: 1200px;
+}
+
+.image5{
+    top: 2100px;
+}
+
+.image6{
+    top: 1800px;
+}
+
+.italy1, .italy2, .italy3{
+    font-family: "Tangerine", cursive;
+    font-size: 100px;
+    display:inline-block;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+.italy1{
+    top: 805px;
+    left:250px;
+}
+
+.italy2{
+    top: 1410px;
+    right:290px;
+}
+
+.italy3{
+    top: 2000px;
+    left:200px;
+}
+
+.text1, .text2, .text3, .text4, .end, .end1{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 150;
+}
+
+.head1, .head2, .head3{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.text1{
+    top: 450px;
+    left: 20px;
+    width: 1400px;
+}
+
+.head1{
+    top: 710px;
+    right: 520px;
+}
+
+.text2{
+    top: 760px;
+    left: 710px;
+    width: 600px;
+}
+
+.head2{    
+    top: 1320px;
+    left: 650px;
+}
+
+.text3{    
+    top: 1370px;
+    left: 115px;
+    text-align: right;
+    width:600px;
+}
+
+.head3{
+    top: 1940px;
+    right: 480px;
+}
+
+.text4{
+    top: 1990px;
+    left: 710px;
+    width: 600px;
+}
+
+.end{
+    top: 2150px;
+    left: 710px;
+    width: 600px;
+}
+
+.end1{
+    top: 2200px;
+    left: 710px;
+    width: 600px;
+}
+
+.lower{
+    position: absolute;
+    top:2370px;
+    opacity: 0.5;
+    height: 140px;
+    width: 1440px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.bg1{
+    width: 1440px;
+    height: 100px;
+    position: absolute;
+    top:2370px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.bg2{
+    position: absolute;
+    top:2420px;
+    left: 575px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.icon{
+    position: absolute;
+    top:2450px;
+    left: 565px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.p1{
+    position: absolute;
+    top:600px;
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+    object-position: bottom;
+}
+
+.p2{
+    position: absolute;
+    top:900px;
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+    object-position: top;
+}
+
+.p3{
+    position: absolute;
+    top:1200px;
+    width: 650px;
+    height: 200px;
+    right:0;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.p4{
+    position: absolute;
+    top:1500px;
+    width: 650px;
+    height: 200px;
+    right:0;
+    object-fit: cover;
+    opacity: 0.5;
+    object-position: top;
+}
+
+.p5{
+    position: absolute;
+    top:1800px;
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+    object-position: top;
+}
+
+.p6{
+    position: absolute;
+    top:2100px;
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+}
